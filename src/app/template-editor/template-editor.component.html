@@ -1,0 +1,13 @@
+<div>
+  <md-input-container>
+    <textarea mdInput rows="20" cols="50" placeholder="Item template" [(ngModel)]="templateString" ></textarea>
+  </md-input-container>
+</div>
+<div>
+  <md-input-container>
+    <textarea mdInput rows="20" cols="50" placeholder="Result" [(ngModel)]="result"></textarea>
+  </md-input-container>
+</div>
+<div>
+  <button md-raised-button (click)="export()">Export</button>
+</div>

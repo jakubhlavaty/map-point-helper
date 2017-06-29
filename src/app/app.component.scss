@@ -1,0 +1,14 @@
+app-root {
+  display: flex;
+
+  .c-body {
+    flex: 1;
+  }
+
+  .c-body {
+    agm-map {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
