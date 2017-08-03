@@ -39,5 +39,6 @@ export interface Generator {
 }
 
 export const GENERATORS = [
-  { placeholder: "uuid", generator: new UUIDGenerator() }
+  { placeholder: "uuid", generator: new UUIDGenerator() },
+  { placeholder: "seq", generator: new UUIDGenerator() }
 ];
